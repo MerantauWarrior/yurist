@@ -1,0 +1,64 @@
+.spdl_form{
+	max-width: 300px;
+	margin: 0 auto;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.spdl_table dt, .spdl_table dl{display: inline-block;}
+.spdl_table dd{margin-left: 0;margin-bottom: 15px;}
+.spdl_label{
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.5;
+}
+.spdl_input, .spdl_select, .spdl_textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	color: #555;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.spdl_input, .spdl_select{	
+	height: 30px;
+	line-height: 30px;
+}
+.spdl_textarea{
+	min-height: 130px;
+}
+.spdl_input:focus, .spdl_select:focus, .spdl_textarea:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.spdl_submit {
+    color: #fff;
+    outline: none;
+    white-space: nowrap;
+    margin-top: 3px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    font: bold 14px/normal Arial, sans-serif;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0, #97c765), color-stop(1, #7eaf4a));
+    background: -moz-linear-gradient( center top, #97c765 0%, #7eaf4a 100%);
+    background-color: #7eaf4a;
+    border: 1px solid #7fb04b;
+    cursor: pointer;
+    text-decoration: none;
+}
+.spdl_submit:hover {
+    color: #fff;
+    text-decoration: none;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0, #a6d277), color-stop(1, #97c765));
+    background: -moz-linear-gradient( center top, #a6d277 0%, #97c765 100%);
+    background-color: #97c765;
+}
